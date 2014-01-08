@@ -28,4 +28,15 @@
 - (IBAction)saturationValueChanged:(UISlider *)sender;
 - (IBAction)blurSliderChanged:(UISlider *)sender;
 
+
+//set up touch up actions
+- (IBAction)tintTouchUp:(UISlider *)sender;
+- (IBAction)saturationTouchUp:(UISlider *)sender;
+- (IBAction)blurTouchUp:(UISlider *)sender;
+
+
+@property (weak, nonatomic) IBOutlet UISwitch *blurOn;
+- (IBAction)switchChanged:(UISwitch *)sender;
+
+
 @end

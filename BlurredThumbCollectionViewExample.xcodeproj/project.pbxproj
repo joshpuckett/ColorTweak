@@ -19,8 +19,7 @@
 		221B2EFF187D299900F53686 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221B2EFE187D299900F53686 /* XCTest.framework */; };
 		221B2F00187D299900F53686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221B2EDF187D299900F53686 /* Foundation.framework */; };
 		221B2F01187D299900F53686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221B2EE3187D299900F53686 /* UIKit.framework */; };
-		221B2F09187D299900F53686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 221B2F07187D299900F53686 /* InfoPlist.strings */; };
-		221B2F0B187D299900F53686 /* BlurredThumbCollectionViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221B2F0A187D299900F53686 /* BlurredThumbCollectionViewExampleTests.m */; };
+		221FEF73187E00590099D405 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 221FEF72187E00590099D405 /* bg.png */; };
 		226D0FDF187D333D000C9756 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 226D0FDE187D333D000C9756 /* UIImage+ImageEffects.m */; };
 		226D10C1187D396E000C9756 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 226D10A8187D396E000C9756 /* 1.jpg */; };
 		226D10C2187D396E000C9756 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 226D10A9187D396E000C9756 /* 2.jpg */; };
@@ -76,9 +75,7 @@
 		221B2EF7187D299900F53686 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		221B2EFD187D299900F53686 /* BlurredThumbCollectionViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurredThumbCollectionViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221B2EFE187D299900F53686 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		221B2F06187D299900F53686 /* BlurredThumbCollectionViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurredThumbCollectionViewExampleTests-Info.plist"; sourceTree = "<group>"; };
-		221B2F08187D299900F53686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		221B2F0A187D299900F53686 /* BlurredThumbCollectionViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurredThumbCollectionViewExampleTests.m; sourceTree = "<group>"; };
+		221FEF72187E00590099D405 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		226D0FDD187D333D000C9756 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		226D0FDE187D333D000C9756 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		226D10A8187D396E000C9756 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
@@ -136,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				221B2EE5187D299900F53686 /* BlurredThumbCollectionViewExample */,
-				221B2F04187D299900F53686 /* BlurredThumbCollectionViewExampleTests */,
 				221B2EDE187D299900F53686 /* Frameworks */,
 				221B2EDD187D299900F53686 /* Products */,
 			);
@@ -199,6 +195,7 @@
 				226D0FDE187D333D000C9756 /* UIImage+ImageEffects.m */,
 				221B2EF4187D299900F53686 /* ViewController.h */,
 				221B2EF5187D299900F53686 /* ViewController.m */,
+				221FEF72187E00590099D405 /* bg.png */,
 			);
 			path = BlurredThumbCollectionViewExample;
 			sourceTree = "<group>";
@@ -210,24 +207,6 @@
 				221B2EE8187D299900F53686 /* InfoPlist.strings */,
 				221B2EEB187D299900F53686 /* main.m */,
 				221B2EED187D299900F53686 /* BlurredThumbCollectionViewExample-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		221B2F04187D299900F53686 /* BlurredThumbCollectionViewExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				221B2F0A187D299900F53686 /* BlurredThumbCollectionViewExampleTests.m */,
-				221B2F05187D299900F53686 /* Supporting Files */,
-			);
-			path = BlurredThumbCollectionViewExampleTests;
-			sourceTree = "<group>";
-		};
-		221B2F05187D299900F53686 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				221B2F06187D299900F53686 /* BlurredThumbCollectionViewExampleTests-Info.plist */,
-				221B2F07187D299900F53686 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -330,6 +309,7 @@
 				226D10C3187D396E000C9756 /* 3.jpg in Resources */,
 				226D10D9187D396E000C9756 /* 25.jpg in Resources */,
 				226D10C7187D396E000C9756 /* 7.jpg in Resources */,
+				221FEF73187E00590099D405 /* bg.png in Resources */,
 				226D10C9187D396E000C9756 /* 9.jpg in Resources */,
 				226D10D8187D396E000C9756 /* 24.jpg in Resources */,
 				221B2EEA187D299900F53686 /* InfoPlist.strings in Resources */,
@@ -343,7 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221B2F09187D299900F53686 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221B2F0B187D299900F53686 /* BlurredThumbCollectionViewExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,14 +372,6 @@
 				221B2EF2187D299900F53686 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		221B2F07187D299900F53686 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				221B2F08187D299900F53686 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
