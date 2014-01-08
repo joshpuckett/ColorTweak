@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEDE7987-14A5-4CB0-B497-8531D6C429CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlurredThumbCollectionViewExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>091D4AE7-0731-4495-A70F-F0A3DFEDC6F3</key>
+		<string>https://github.com/joshpuckett/ColorTweak.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlurredThumbCollectionViewExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>091D4AE7-0731-4495-A70F-F0A3DFEDC6F3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/joshpuckett/ColorTweak.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>091D4AE7-0731-4495-A70F-F0A3DFEDC6F3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>091D4AE7-0731-4495-A70F-F0A3DFEDC6F3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ColorTweak</string>
+		</dict>
+	</array>
+</dict>
+</plist>
